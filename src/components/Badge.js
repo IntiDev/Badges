@@ -1,28 +1,38 @@
-import React from 'react';
-import brandLogo from '../images/logo_design_bjnx.svg';
-import avatar from '../images/female_avatar_l3ey.svg'
+import React from "react";
+import "./styles/Badge.css";
+import brandLogo from "../images/logo_design_bjnx.svg";
+import avatar from "../images/female_avatar_l3ey.svg";
 
 class Badge extends React.Component {
   render() {
-    return <div>
-      <div>
-        <img src={ brandLogo } alt="Logo de la marca"/>
-      </div>
-      
-      <div>
-        <img src={ avatar} alt="Avatar"/>
-        <h1> Nombre <br/> de la persona</h1>
-      </div>
+    return (
+      <div className="Badge">
+        <div className="Badge__header">
+          <img src={brandLogo} alt="Logo de la marca" />
+        </div>
 
-      <div>
-        <p> Frontend developer </p>
-        <p> @IntiDev</p>
-      </div>
+        <div className="Badge__section-name">
+          <img
+            className="Badge__avatar"
+            src="https://gravatar.com/avatar?d=identicon"
+            alt="Avatar"
+          />
+          <h1>
+            {" "}
+            Nombre <br /> de la persona
+          </h1>
+        </div>
 
-      <div>
-        <p> #Coding </p>
+        <div className="Badge__section-info">
+          <p> Frontend developer </p>
+          <p> @IntiDev</p>
+        </div>
+
+        <div className='Badge__footer'>
+          #Coding
+        </div>
       </div>
-    </div>
+    );
   }
 }
 
