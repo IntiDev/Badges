@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/Badge.css";
 import brandLogo from "../images/logo_design_bjnx.svg";
-import avatar from "../images/female_avatar_l3ey.svg";
+// import avatar from "../images/female_avatar_l3ey.svg";
 
 class Badge extends React.Component {
   render() {
@@ -14,19 +14,18 @@ class Badge extends React.Component {
         <div className="Badge__section-name">
           <img
             className="Badge__avatar"
-            // src="https://gravatar.com/avatar?d=identicon"
-            src={avatar}
+            src={this.props.avatarUrl}
             alt="Avatar"
           />
           <h1>
             {" "}
-            Nombre <br /> de la persona
+            {this.props.firstName}<br /> {this.props.lastName}
           </h1>
         </div>
 
         <div className="Badge__section-info">
-          <h3> Frontend developer </h3>
-          <div> @IntiDev </div>
+          <h3> {this.props.jobTitle} </h3>
+          <div> @{this.props.user} </div>
         </div>
 
         <div className='Badge__footer'>
