@@ -1,6 +1,6 @@
 import React from 'react';
-import brandLogo from "../images/logo_design_bjnx.svg";
 import './styles/Navbar.css';
+import brandLogo from '../images/badge-header.svg';
 
 class Navbar extends React.Component {
   render() {
