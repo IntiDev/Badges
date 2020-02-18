@@ -48,10 +48,11 @@ class BadgeNew extends React.Component {
           <div className='col-6'>
           <Badge
             avatarUrl="http://resource.intidev.info/female_avatar_l3.svg"
-            firstName="Nombre"
-            lastName="Apellido"
-            jobTitle="Frontend developer"
-            user="Inti"
+            firstName={this.state.form.firstName}
+            lastName={this.state.form.lastName}
+            jobTitle={this.state.form.jobTitle}
+            email={this.state.form.email}
+            user={this.state.form.twitter}
           />
           </div>
           <div className='col-6'>
