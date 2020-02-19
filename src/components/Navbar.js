@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { BrowserRouter, Link } from 'react-router-dom';
 import './styles/Navbar.css';
 import brandLogo from '../images/badge-header.svg';
-import { BrowserRouter } from 'react-router-dom';
 
 class Navbar extends React.Component {
   render() {
@@ -15,7 +14,7 @@ class Navbar extends React.Component {
             <span className="font-weight-light"> Platzi </span>
             <span className="font-weight-bold"> Conf </span>
           </Link>
-          </BrowserRouter>
+        </BrowserRouter>
         </div>
       </div>
     )
