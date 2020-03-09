@@ -440,6 +440,22 @@
       "jobTitle": "Lawyer",
       "twitter": "ckaufmanpr",
       "id": "npaYZKI"
+    },
+    {
+      "firstName": "Inti",
+      "lastName": "Dev",
+      "email": "ainesey1502@gmail.com",
+      "jobTitle": "Frontend",
+      "twitter": "IntiDev",
+      "id": "_E72P19"
+    },
+    {
+      "firstName": "Hugo",
+      "lastName": "Lozano",
+      "email": "imbardux@gmail.com",
+      "jobTitle": "DevOPs",
+      "twitter": "Imbardux",
+      "id": "lbCoNeM"
     }
   ]
 }

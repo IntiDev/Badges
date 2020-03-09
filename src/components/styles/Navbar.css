@@ -1,7 +1,7 @@
 .Navbar {
   width: 100%;
   padding: 0.5rem 0;
-  background: -webkit-linear-gradient(left, rgba(30,83,114,1) 0%,  rgba(6,189,174,1) 100%);
+  background-color: #5500C6;
 }
 
 .Navbar__brand {
@@ -18,5 +18,5 @@
 
 .Navbar__brand-logo {
   margin-right: 0.5rem;
-  width: 10%;
+  width: 8%;
 }

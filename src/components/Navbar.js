@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Link } from 'react-router-dom';
 import './styles/Navbar.css';
-import brandLogo from '../images/badge-header.svg';
+import brandLogo from '../images/astronauts.svg';
 
 class Navbar extends React.Component {
   render() {
